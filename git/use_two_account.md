@@ -28,8 +28,7 @@
 
     ```
     $ vi ~/.ssh/config
-    ```
-    
+    ```    
     內容如下 :
 
     ```
@@ -39,12 +38,10 @@
 
     Host github.com
       HostName github.com
-      IdentityFile ~/.ssh/id_rsa_private
-      
-      
+      IdentityFile ~/.ssh/id_rsa_private      
       ```
 
-    這樣就可以在分別的repo更改，會自動對應相對的SSH Key了．
+ 完工！這樣就可以在分別的repo更改，會自動對應相對的SSH Key了．
 
 
 [1]: https://help.github.com/articles/generating-an-ssh-key/ "官方教學"
